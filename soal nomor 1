@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+   int nilai[10];
+   int a=0;
+   int bil,i;
+
+   for(i=0;i<10;i++){
+       a++;
+       cout<<"masukkan data ke-"<<a<<"=";
+       cin>>nilai[i];
+   }
+   cout<<"masukan nilai yang akan dicari : ";
+   cin>>bil;
+
+   cout<<"nilai yang dicari terdapat pada indeks ke- ";
+   for(i=0;i<10;i++){
+       if(nilai[i]==bil){
+          cout<<i<<" ";
+     }
+   }
+   cout<<endl;
+
+return 0;
+}
