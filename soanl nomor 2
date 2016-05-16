@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int nilai[10];
+    int a=0;
+    int bil,i;
+
+    for(i=0;i<10;i++){
+        a++
+        cout<<"masukan data ke-"<<a<<" = ";
+        cin>>nilai[i];
+    }
+    cout<<endl;
+
+return 0;
+}
